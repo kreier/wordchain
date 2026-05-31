@@ -1,102 +1,402 @@
 [
-  "công việc",
-  "việc làm",
-  "làm ăn",
-  "ăn uống",
-  "uống nước",
-  "nước mắt",
-  "mắt kính",
-  "kính cận",
-  "cận thị",
-  "thị trường",
-  "trường học",
-  "học sinh",
-  "sinh viên",
-  "viên chức",
-  "chức vụ",
-  "vụ án",
-  "án mạng",
-  "mạng sống",
-  "sống còn",
-  "còn lại",
-  "lại quả",
-  "quả cam",
-  "cam kết",
-  "kết quả",
-  "quả táo",
-  "táo bạo",
-  "bạo lực",
-  "lực lượng",
-  "lượng giá",
-  "giá cả",
-  "cảng biển",
-  "biển báo",
-  "báo chí",
-  "chí hướng",
-  "hướng dẫn",
-  "dẫn đường",
-  "đường phố",
-  "phố cổ",
-  "cổ điển",
-  "điển hình",
-  "hình ảnh",
-  "ảnh hưởng",
-  "hưởng lợi",
-  "lợi nhuận",
-  "nhuận bút",
-  "bút chì",
-  "chì khóa",
-  "khóa học",
-  "học phí",
-  "phí tổn",
-  "tổn thất",
-  "thất bại",
-  "bại trận",
-  "trận đấu",
-  "đấu trường",
-  "trường đời",
-  "đời sống",
-  "sống động",
-  "động vật",
-  "vật liệu",
-  "liệu pháp",
-  "pháp luật",
-  "luật sư",
-  "sư phạm",
-  "phạm vi",
-  "vi khuẩn",
-  "khuẩn lạc",
-  "lạc quan",
-  "quan hệ",
-  "hệ thống",
-  "thống nhất",
-  "nhất trí",
-  "trí tuệ",
-  "tuệ giác",
-  "giác quan",
-  "quan điểm",
-  "điểm số",
-  "số học",
-  "học thuật",
-  "thuật toán",
-  "toán học",
-  "học đường",
-  "đường sắt",
-  "sắt thép",
-  "thép không",
-  "không gian",
-  "gian nan",
-  "nan giải",
-  "giải pháp",
-  "pháp lý",
-  "lý thuyết",
-  "thuyết phục",
-  "phục vụ",
-  "vụ mùa",
-  "mùa hè",
-  "hè phố",
-  "phố thị",
-  "thị dân",
-  "dân số",
-  "số lượng"
+  {
+    "vietnamese": "công việc",
+    "english": "work"
+  },
+  {
+    "vietnamese": "việc làm",
+    "english": "employment"
+  },
+  {
+    "vietnamese": "làm ăn",
+    "english": "doing business"
+  },
+  {
+    "vietnamese": "ăn uống",
+    "english": "eating and drinking"
+  },
+  {
+    "vietnamese": "uống nước",
+    "english": "drink water"
+  },
+  {
+    "vietnamese": "nước mắt",
+    "english": "tears"
+  },
+  {
+    "vietnamese": "mắt kính",
+    "english": "eyeglasses"
+  },
+  {
+    "vietnamese": "kính cận",
+    "english": "nearsighted glasses"
+  },
+  {
+    "vietnamese": "cận thị",
+    "english": "myopia"
+  },
+  {
+    "vietnamese": "thị trường",
+    "english": "market"
+  },
+  {
+    "vietnamese": "trường học",
+    "english": "school"
+  },
+  {
+    "vietnamese": "học sinh",
+    "english": "student (pupil)"
+  },
+  {
+    "vietnamese": "sinh viên",
+    "english": "university student"
+  },
+  {
+    "vietnamese": "viên chức",
+    "english": "public employee"
+  },
+  {
+    "vietnamese": "chức vụ",
+    "english": "position"
+  },
+  {
+    "vietnamese": "vụ án",
+    "english": "court case"
+  },
+  {
+    "vietnamese": "án mạng",
+    "english": "murder case"
+  },
+  {
+    "vietnamese": "mạng sống",
+    "english": "life"
+  },
+  {
+    "vietnamese": "sống còn",
+    "english": "survival"
+  },
+  {
+    "vietnamese": "còn lại",
+    "english": "remaining"
+  },
+  {
+    "vietnamese": "lại quả",
+    "english": "kickback"
+  },
+  {
+    "vietnamese": "quả cam",
+    "english": "orange"
+  },
+  {
+    "vietnamese": "cam kết",
+    "english": "commitment"
+  },
+  {
+    "vietnamese": "kết quả",
+    "english": "result"
+  },
+  {
+    "vietnamese": "quả táo",
+    "english": "apple"
+  },
+  {
+    "vietnamese": "táo bạo",
+    "english": "bold"
+  },
+  {
+    "vietnamese": "bạo lực",
+    "english": "violence"
+  },
+  {
+    "vietnamese": "lực lượng",
+    "english": "force"
+  },
+  {
+    "vietnamese": "lượng giá",
+    "english": "assessment"
+  },
+  {
+    "vietnamese": "giá cả",
+    "english": "prices"
+  },
+  {
+    "vietnamese": "cảng biển",
+    "english": "seaport"
+  },
+  {
+    "vietnamese": "biển báo",
+    "english": "traffic sign"
+  },
+  {
+    "vietnamese": "báo chí",
+    "english": "press"
+  },
+  {
+    "vietnamese": "chí hướng",
+    "english": "aspiration"
+  },
+  {
+    "vietnamese": "hướng dẫn",
+    "english": "guide"
+  },
+  {
+    "vietnamese": "dẫn đường",
+    "english": "lead the way"
+  },
+  {
+    "vietnamese": "đường phố",
+    "english": "street"
+  },
+  {
+    "vietnamese": "phố cổ",
+    "english": "old quarter"
+  },
+  {
+    "vietnamese": "cổ điển",
+    "english": "classical"
+  },
+  {
+    "vietnamese": "điển hình",
+    "english": "typical"
+  },
+  {
+    "vietnamese": "hình ảnh",
+    "english": "image"
+  },
+  {
+    "vietnamese": "ảnh hưởng",
+    "english": "influence"
+  },
+  {
+    "vietnamese": "hưởng lợi",
+    "english": "benefit"
+  },
+  {
+    "vietnamese": "lợi nhuận",
+    "english": "profit"
+  },
+  {
+    "vietnamese": "nhuận bút",
+    "english": "royalty"
+  },
+  {
+    "vietnamese": "bút chì",
+    "english": "pencil"
+  },
+  {
+    "vietnamese": "chì khóa",
+    "english": "key"
+  },
+  {
+    "vietnamese": "khóa học",
+    "english": "course"
+  },
+  {
+    "vietnamese": "học phí",
+    "english": "tuition"
+  },
+  {
+    "vietnamese": "phí tổn",
+    "english": "expense"
+  },
+  {
+    "vietnamese": "tổn thất",
+    "english": "loss"
+  },
+  {
+    "vietnamese": "thất bại",
+    "english": "failure"
+  },
+  {
+    "vietnamese": "bại trận",
+    "english": "defeat"
+  },
+  {
+    "vietnamese": "trận đấu",
+    "english": "match"
+  },
+  {
+    "vietnamese": "đấu trường",
+    "english": "arena"
+  },
+  {
+    "vietnamese": "trường đời",
+    "english": "school of life"
+  },
+  {
+    "vietnamese": "đời sống",
+    "english": "life"
+  },
+  {
+    "vietnamese": "sống động",
+    "english": "vivid"
+  },
+  {
+    "vietnamese": "động vật",
+    "english": "animal"
+  },
+  {
+    "vietnamese": "vật liệu",
+    "english": "material"
+  },
+  {
+    "vietnamese": "liệu pháp",
+    "english": "therapy"
+  },
+  {
+    "vietnamese": "pháp luật",
+    "english": "law"
+  },
+  {
+    "vietnamese": "luật sư",
+    "english": "lawyer"
+  },
+  {
+    "vietnamese": "sư phạm",
+    "english": "pedagogy"
+  },
+  {
+    "vietnamese": "phạm vi",
+    "english": "scope"
+  },
+  {
+    "vietnamese": "vi khuẩn",
+    "english": "bacteria"
+  },
+  {
+    "vietnamese": "khuẩn lạc",
+    "english": "colony"
+  },
+  {
+    "vietnamese": "lạc quan",
+    "english": "optimistic"
+  },
+  {
+    "vietnamese": "quan hệ",
+    "english": "relationship"
+  },
+  {
+    "vietnamese": "hệ thống",
+    "english": "system"
+  },
+  {
+    "vietnamese": "thống nhất",
+    "english": "unified"
+  },
+  {
+    "vietnamese": "nhất trí",
+    "english": "unanimous"
+  },
+  {
+    "vietnamese": "trí tuệ",
+    "english": "intelligence"
+  },
+  {
+    "vietnamese": "tuệ giác",
+    "english": "insight"
+  },
+  {
+    "vietnamese": "giác quan",
+    "english": "sense"
+  },
+  {
+    "vietnamese": "quan điểm",
+    "english": "viewpoint"
+  },
+  {
+    "vietnamese": "điểm số",
+    "english": "score"
+  },
+  {
+    "vietnamese": "số học",
+    "english": "arithmetic"
+  },
+  {
+    "vietnamese": "học thuật",
+    "english": "academic"
+  },
+  {
+    "vietnamese": "thuật toán",
+    "english": "algorithm"
+  },
+  {
+    "vietnamese": "toán học",
+    "english": "mathematics"
+  },
+  {
+    "vietnamese": "học đường",
+    "english": "school-related"
+  },
+  {
+    "vietnamese": "đường sắt",
+    "english": "railway"
+  },
+  {
+    "vietnamese": "sắt thép",
+    "english": "steel and iron"
+  },
+  {
+    "vietnamese": "thép không",
+    "english": "stainless steel"
+  },
+  {
+    "vietnamese": "không gian",
+    "english": "space"
+  },
+  {
+    "vietnamese": "gian nan",
+    "english": "hardship"
+  },
+  {
+    "vietnamese": "nan giải",
+    "english": "difficult"
+  },
+  {
+    "vietnamese": "giải pháp",
+    "english": "solution"
+  },
+  {
+    "vietnamese": "pháp lý",
+    "english": "legal"
+  },
+  {
+    "vietnamese": "lý thuyết",
+    "english": "theory"
+  },
+  {
+    "vietnamese": "thuyết phục",
+    "english": "convince"
+  },
+  {
+    "vietnamese": "phục vụ",
+    "english": "serve"
+  },
+  {
+    "vietnamese": "vụ mùa",
+    "english": "crop season"
+  },
+  {
+    "vietnamese": "mùa hè",
+    "english": "summer"
+  },
+  {
+    "vietnamese": "hè phố",
+    "english": "sidewalk"
+  },
+  {
+    "vietnamese": "phố thị",
+    "english": "town"
+  },
+  {
+    "vietnamese": "thị dân",
+    "english": "urban resident"
+  },
+  {
+    "vietnamese": "dân số",
+    "english": "population"
+  },
+  {
+    "vietnamese": "số lượng",
+    "english": "quantity"
+  }
 ]

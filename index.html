@@ -29,6 +29,14 @@
         box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
 
+    #englishWord {
+        font-size: 1.1rem;
+        color: #666;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+    
     #score {
         margin-bottom: 15px;
         font-size: 1.1rem;
@@ -78,6 +86,8 @@
 
 <div id="currentWord">Loading...</div>
 
+<div id="englishWord"></div>
+
 <div id="options"></div>
 
 <button id="restart">New Game</button>
@@ -85,32 +95,36 @@
 <div id="message"></div>
 
 <script>
-let words = [];
+let vocabulary = [];
 let currentWord = "";
 let score = 0;
 
 // Returns second word of compound
-function getSecondPart(word) {
-    return word.trim().split(/\s+/).slice(-1)[0];
+function getSecondPart(entry) {
+    return entry.vietnamese.trim().split(/\s+/).slice(-1)[0];
 }
 
 // Returns first word of compound
-function getFirstPart(word) {
-    return word.trim().split(/\s+/)[0];
+function getFirstPart(entry) {
+    return entry.vietnamese.trim().split(/\s+/)[0];
 }
 
 // Find valid next words
-function findNextWords(word) {
-    const target = getSecondPart(word);
+function findNextWords(entry) {
+    const target = getSecondPart(entry);
 
-    return words.filter(w =>
-        w !== word &&
-        getFirstPart(w) === target
+    return vocabulary.filter(v =>
+        v !== entry &&
+        getFirstPart(v) === target
     );
 }
 
 function updateUI() {
-    document.getElementById("currentWord").textContent = currentWord;
+    document.getElementById("currentWord").textContent =
+        currentWord.vietnamese;
+    
+    document.getElementById("englishWord").textContent =
+        currentWord.english;
     document.getElementById("score").textContent = `Score: ${score}`;
 
     const optionsDiv = document.getElementById("options");
@@ -132,7 +146,8 @@ function updateUI() {
     nextWords.forEach(word => {
         const btn = document.createElement("button");
         btn.className = "option";
-        btn.textContent = word;
+        btn.textContent =
+            `${word.vietnamese} (${word.english})`;
 
         btn.onclick = () => {
             currentWord = word;
@@ -147,7 +162,7 @@ function updateUI() {
 function startGame() {
     score = 0;
 
-    const starters = words.filter(w =>
+    const starters = vocabulary.filter(w =>
         findNextWords(w).length > 0
     );
 
@@ -160,7 +175,7 @@ function startGame() {
 async function loadWords() {
     try {
         const response = await fetch("vocabulary/vietnamese.json");
-        words = await response.json();
+        vocabulary = await response.json();
 
         startGame();
     } catch (err) {
