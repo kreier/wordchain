@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vietnamese Word Chain</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 16px;
+        background: #f5f5f5;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    #currentWord {
+        font-size: 2rem;
+        font-weight: bold;
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    #score {
+        margin-bottom: 15px;
+        font-size: 1.1rem;
+    }
+
+    #options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button.option {
+        font-size: 1.2rem;
+        padding: 16px;
+        border: none;
+        border-radius: 10px;
+        background: #2196f3;
+        color: white;
+        cursor: pointer;
+    }
+
+    button.option:active {
+        transform: scale(0.98);
+    }
+
+    #restart {
+        margin-top: 20px;
+        padding: 12px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 10px;
+        background: #4caf50;
+        color: white;
+    }
+
+    #message {
+        margin-top: 15px;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<h1>Vietnamese Word Chain</h1>
+
+<div id="score">Score: 0</div>
+
+<div id="currentWord">Loading...</div>
+
+<div id="options"></div>
+
+<button id="restart">New Game</button>
+
+<div id="message"></div>
+
+<script>
+let words = [];
+let currentWord = "";
+let score = 0;
+
+// Returns second word of compound
+function getSecondPart(word) {
+    return word.trim().split(/\s+/).slice(-1)[0];
+}
+
+// Returns first word of compound
+function getFirstPart(word) {
+    return word.trim().split(/\s+/)[0];
+}
+
+// Find valid next words
+function findNextWords(word) {
+    const target = getSecondPart(word);
+
+    return words.filter(w =>
+        w !== word &&
+        getFirstPart(w) === target
+    );
+}
+
+function updateUI() {
+    document.getElementById("currentWord").textContent = currentWord;
+    document.getElementById("score").textContent = `Score: ${score}`;
+
+    const optionsDiv = document.getElementById("options");
+    optionsDiv.innerHTML = "";
+
+    const nextWords = findNextWords(currentWord);
+
+    if (nextWords.length === 0) {
+        document.getElementById("message").textContent =
+            "No more moves available!";
+        return;
+    }
+
+    document.getElementById("message").textContent = "";
+
+    // Shuffle options
+    nextWords.sort(() => Math.random() - 0.5);
+
+    nextWords.forEach(word => {
+        const btn = document.createElement("button");
+        btn.className = "option";
+        btn.textContent = word;
+
+        btn.onclick = () => {
+            currentWord = word;
+            score++;
+            updateUI();
+        };
+
+        optionsDiv.appendChild(btn);
+    });
+}
+
+function startGame() {
+    score = 0;
+
+    const starters = words.filter(w =>
+        findNextWords(w).length > 0
+    );
+
+    currentWord =
+        starters[Math.floor(Math.random() * starters.length)];
+
+    updateUI();
+}
+
+async function loadWords() {
+    try {
+        const response = await fetch("vocabulary/vietnamese.json");
+        words = await response.json();
+
+        startGame();
+    } catch (err) {
+        document.getElementById("currentWord").textContent =
+            "Could not load vietnamese.json";
+        console.error(err);
+    }
+}
+
+document.getElementById("restart").onclick = startGame;
+
+loadWords();
+</script>
+
+</body>
+</html>
