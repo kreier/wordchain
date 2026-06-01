@@ -1,101 +1,276 @@
 word,english,date
-công việc,work,2026-05-31
-việc làm,employment,2026-05-31
-làm ăn,doing business,2026-05-31
-ăn uống,eating and drinking,2026-05-31
-uống nước,drink water,2026-05-31
-nước mắt,tears,2026-05-31
-mắt kính,eyeglasses,2026-05-31
-kính cận,nearsighted glasses,2026-05-31
-cận thị,myopia,2026-05-31
-thị trường,market,2026-05-31
-trường học,school,2026-05-31
-học sinh,student (pupil),2026-05-31
-sinh viên,university student,2026-05-31
-viên chức,public employee,2026-05-31
-chức vụ,position,2026-05-31
-vụ án,court case,2026-05-31
+âm nhạc,music,2026-06-01
 án mạng,murder case,2026-05-31
-mạng sống,life,2026-05-31
-sống còn,survival,2026-05-31
-còn lại,remaining,2026-05-31
-lại quả,kickback,2026-05-31
-quả cam,orange,2026-05-31
-cam kết,commitment,2026-05-31
-kết quả,result,2026-05-31
-quả táo,apple,2026-05-31
-táo bạo,bold,2026-05-31
+an ninh,security,2026-06-01
+ăn uống,eating and drinking,2026-05-31
+ảnh đẹp,beautiful photo,2026-06-01
+ảnh hưởng,influence,2026-05-31
+ánh nắng,sunshine,2026-06-01
+bác sĩ,doctor,2026-06-01
+bài báo,article,2026-06-01
+bãi biển,beach,2026-06-01
+bài hát,song,2026-06-01
+bài tập,exercise,2026-06-01
+bại trận,defeat,2026-05-31
+bạn bè,friends,2026-06-01
+bản đồ,map,2026-06-01
+bằng cấp,degree,2026-06-01
+bánh mì,bread,2026-06-01
+báo chí,press,2026-05-31
 bạo lực,violence,2026-05-31
+bầu trời,sky,2026-06-01
+bệnh viện,hospital,2026-06-01
+biển báo,traffic sign,2026-05-31
+bộ phim,movie,2026-06-01
+bơi lội,swimming,2026-06-01
+bóng đá,football,2026-06-01
+bóng rổ,basketball,2026-06-01
+buổi sáng,morning,2026-06-01
+buổi tối,evening,2026-06-01
+bút chì,pencil,2026-05-31
+cà phê,coffee,2026-06-01
+ca sĩ,singer,2026-06-01
+cam kết,commitment,2026-05-31
+cảng biển,seaport,2026-05-31
+cảnh sát,police,2026-06-01
+câu chuyện,story,2026-06-01
+câu hỏi,question,2026-06-01
+cầu lông,badminton,2026-06-01
+trả lời,answer,2026-06-01
+chất lượng,quality,2026-06-01
+chạy bộ,running,2026-06-01
+chí hướng,aspiration,2026-05-31
+chì khóa,key,2026-05-31
+chiến tranh,war,2026-06-01
+chim chóc,birds,2026-06-01
+chợ đêm,night market,2026-06-01
+chức vụ,position,2026-05-31
+cổ điển,classical,2026-05-31
+cơm chiên,fried rice,2026-06-01
+còn lại,remaining,2026-05-31
+cơn mưa,rain shower,2026-06-01
+công an,public security,2026-06-01
+cộng đồng,community,2026-06-01
+công nghệ,technology,2026-06-01
+công ty,company,2026-06-01
+công việc,work,2026-05-31
+cửa hàng,shop,2026-06-01
+cuộc họp,meeting,2026-06-01
+cuộc sống,life,2026-06-01
+đại dương,ocean,2026-06-01
+dẫn đường,lead the way,2026-05-31
+dân số,population,2026-05-31
+đất nước,country,2026-06-01
+đấu trường,arena,2026-05-31
+đầu tư,investment,2026-06-01
+địa lý,geography,2026-06-01
+dịch vụ,service,2026-06-01
+điểm đến,destination,2026-06-01
+điểm số,score,2026-05-31
+điện ảnh,cinema,2026-06-01
+điển hình,typical,2026-05-31
+điện lực,electric power,2026-06-01
+điện thoại,telephone,2026-06-01
+diễn viên,actor,2026-06-01
+điêu khắc,sculpture,2026-06-01
+đồ uống,beverage,2026-06-01
+doanh nghiệp,enterprise,2026-06-01
+độc giả,reader,2026-06-01
+đời sống,life,2026-05-31
+động vật,animal,2026-05-31
+dự án,project,2026-06-01
+du lịch,tourism,2026-06-01
+dữ liệu,data,2026-06-01
+đường phố,street,2026-05-31
+đường sắt,railway,2026-05-31
+ghi chú,note,2026-06-01
+giá cả,prices,2026-05-31
+gia đình,family,2026-06-01
+giác quan,sense,2026-05-31
+giải pháp,solution,2026-05-31
+gian nan,hardship,2026-05-31
+giao thông,traffic,2026-06-01
+giao tiếp,communication,2026-06-01
+giáo viên,teacher,2026-06-01
+hải sản,seafood,2026-06-01
+hạnh phúc,happiness,2026-06-01
+hè phố,sidewalk,2026-05-31
+hệ thống,system,2026-05-31
+hiện tại,present,2026-06-01
+hình ảnh,image,2026-05-31
+hòa bình,peace,2026-06-01
+học đường,school-related,2026-05-31
+học phí,tuition,2026-05-31
+học sinh,student (pupil),2026-05-31
+học thuật,academic,2026-05-31
+hội họa,painting,2026-06-01
+hôm nay,today,2026-06-01
+hợp đồng,contract,2026-06-01
+hợp tác,cooperation,2026-06-01
+hướng dẫn,guide,2026-05-31
+hưởng lợi,benefit,2026-05-31
+hy vọng,hope,2026-06-01
+kế hoạch,plan,2026-06-01
+kết quả,result,2026-05-31
+khách hàng,customer,2026-06-01
+khách sạn,hotel,2026-06-01
+khoa học,science,2026-06-01
+khóa học,course,2026-05-31
+không gian,space,2026-05-31
+khu nghỉ dưỡng,resort,2026-06-01
+khuẩn lạc,colony,2026-05-31
+kiến thức,knowledge,2026-06-01
+kinh nghiệm,experience,2026-06-01
+kinh tế,economy,2026-06-01
+kỹ năng,skill,2026-06-01
+kỳ thi,exam,2026-06-01
+lạc quan,optimistic,2026-05-31
+làm ăn,doing business,2026-05-31
+lễ hội,festival,2026-06-01
+lịch sử,history,2026-06-01
+lịch trình,schedule,2026-06-01
+liệu pháp,therapy,2026-05-31
+lợi nhuận,profit,2026-05-31
+luật sư,lawyer,2026-05-31
 lực lượng,force,2026-05-31
 lượng giá,assessment,2026-05-31
-giá cả,prices,2026-05-31
-cảng biển,seaport,2026-05-31
-biển báo,traffic sign,2026-05-31
-báo chí,press,2026-05-31
-chí hướng,aspiration,2026-05-31
-hướng dẫn,guide,2026-05-31
-dẫn đường,lead the way,2026-05-31
-đường phố,street,2026-05-31
-phố cổ,old quarter,2026-05-31
-cổ điển,classical,2026-05-31
-điển hình,typical,2026-05-31
-hình ảnh,image,2026-05-31
-ảnh hưởng,influence,2026-05-31
-hưởng lợi,benefit,2026-05-31
-lợi nhuận,profit,2026-05-31
-nhuận bút,royalty,2026-05-31
-bút chì,pencil,2026-05-31
-chì khóa,key,2026-05-31
-khóa học,course,2026-05-31
-học phí,tuition,2026-05-31
-phí tổn,expense,2026-05-31
-tổn thất,loss,2026-05-31
-thất bại,failure,2026-05-31
-bại trận,defeat,2026-05-31
-trận đấu,match,2026-05-31
-đấu trường,arena,2026-05-31
-trường đời,school of life,2026-05-31
-đời sống,life,2026-05-31
-sống động,vivid,2026-05-31
-động vật,animal,2026-05-31
-vật liệu,material,2026-05-31
-liệu pháp,therapy,2026-05-31
-pháp luật,law,2026-05-31
-luật sư,lawyer,2026-05-31
-sư phạm,pedagogy,2026-05-31
-phạm vi,scope,2026-05-31
-vi khuẩn,bacteria,2026-05-31
-khuẩn lạc,colony,2026-05-31
-lạc quan,optimistic,2026-05-31
-quan hệ,relationship,2026-05-31
-hệ thống,system,2026-05-31
-thống nhất,unified,2026-05-31
-nhất trí,unanimous,2026-05-31
-trí tuệ,intelligence,2026-05-31
-tuệ giác,insight,2026-05-31
-giác quan,sense,2026-05-31
-quan điểm,viewpoint,2026-05-31
-điểm số,score,2026-05-31
-số học,arithmetic,2026-05-31
-học thuật,academic,2026-05-31
-thuật toán,algorithm,2026-05-31
-toán học,mathematics,2026-05-31
-học đường,school-related,2026-05-31
-đường sắt,railway,2026-05-31
-sắt thép,steel and iron,2026-05-31
-thép không,stainless steel,2026-05-31
-không gian,space,2026-05-31
-gian nan,hardship,2026-05-31
-nan giải,difficult,2026-05-31
-giải pháp,solution,2026-05-31
-pháp lý,legal,2026-05-31
 lý thuyết,theory,2026-05-31
-thuyết phục,convince,2026-05-31
-phục vụ,serve,2026-05-31
-vụ mùa,crop season,2026-05-31
+mạng sống,life,2026-05-31
+mạng xã hội,social media,2026-06-01
+mặt hàng,product,2026-06-01
+mắt kính,eyeglasses,2026-05-31
+mặt trăng,moon,2026-06-01
+mặt trời,sun,2026-06-01
+máy ảnh,camera,2026-06-01
+máy bay,airplane,2026-06-01
+máy tính,computer,2026-06-01
+môi trường,environment,2026-06-01
+mùa đông,winter,2026-06-01
 mùa hè,summer,2026-05-31
-hè phố,sidewalk,2026-05-31
+mùa thu,autumn,2026-06-01
+mùa xuân,spring,2026-06-01
+mục tiêu,goal,2026-06-01
+năm mới,new year,2026-06-01
+nan giải,difficult,2026-05-31
+năng lượng,energy,2026-06-01
+ngân hàng,bank,2026-06-01
+ngày lễ,holiday,2026-06-01
+ngày mai,tomorrow,2026-06-01
+nghệ thuật,art,2026-06-01
+nghĩa vụ,obligation,2026-06-01
+nghiên cứu,research,2026-06-01
+ngoại ngữ,foreign language,2026-06-01
+ngôi sao,star,2026-06-01
+ngữ pháp,grammar,2026-06-01
+nhà ga,station,2026-06-01
+nhà hàng,restaurant,2026-06-01
+nhà trường,school,2026-06-01
+nhạc sĩ,composer,2026-06-01
+nhân vật,character,2026-06-01
+nhân viên,employee,2026-06-01
+nhất trí,unanimous,2026-05-31
+nhuận bút,royalty,2026-05-31
+niềm tin,belief,2026-06-01
+nông thôn,countryside,2026-06-01
+núi cao,high mountain,2026-06-01
+nước mắt,tears,2026-05-31
+nước ngọt,soft drink,2026-06-01
+ô tô,car,2026-06-01
+phạm vi,scope,2026-05-31
+phần cứng,hardware,2026-06-01
+phần mềm,software,2026-06-01
+pháp luật,law,2026-05-31
+pháp lý,legal,2026-05-31
+phát thanh,radio broadcasting,2026-06-01
+phát triển,development,2026-06-01
+phí tổn,expense,2026-05-31
+phố cổ,old quarter,2026-05-31
 phố thị,town,2026-05-31
-thị dân,urban resident,2026-05-31
-dân số,population,2026-05-31
+phong tục,custom,2026-06-01
+phục vụ,serve,2026-05-31
+phương pháp,method,2026-06-01
+quả cam,orange,2026-05-31
+quá khứ,past,2026-06-01
+quả táo,apple,2026-05-31
+quan điểm,viewpoint,2026-05-31
+quan hệ,relationship,2026-05-31
+quốc gia,nation,2026-06-01
+quốc tế,international,2026-06-01
+quyền lợi,rights,2026-06-01
+rau củ,vegetables,2026-06-01
+rừng cây,forest,2026-06-01
+sách giáo khoa,textbook,2026-06-01
+sân bay,airport,2026-06-01
+sáng tạo,creativity,2026-06-01
+sắt thép,steel and iron,2026-05-31
+siêu thị,supermarket,2026-06-01
+sinh nhật,birthday,2026-06-01
+sinh viên,university student,2026-05-31
+số học,arithmetic,2026-05-31
 số lượng,quantity,2026-05-31
+sống còn,survival,2026-05-31
+sống động,vivid,2026-05-31
+sông ngòi,rivers,2026-06-01
+sư phạm,pedagogy,2026-05-31
+sự thật,truth,2026-06-01
+sức khỏe,health,2026-06-01
+tác giả,author,2026-06-01
+táo bạo,bold,2026-05-31
+tàu hỏa,train,2026-06-01
+tàu thủy,ship,2026-06-01
+tháng này,this month,2026-06-01
+thành công,success,2026-06-01
+thành phố,city,2026-06-01
+thất bại,failure,2026-05-31
+thể dục,exercise,2026-06-01
+thể thao,sports,2026-06-01
+thép không,stainless steel,2026-05-31
+thị dân,urban resident,2026-05-31
+thị trường,market,2026-05-31
+thiên nhiên,nature,2026-06-01
+thời gian,time,2026-06-01
+thời tiết,weather,2026-06-01
+thống nhất,unified,2026-05-31
+thông tin,information,2026-06-01
+thú cưng,pet,2026-06-01
+thư điện tử,email,2026-06-01
+thư viện,library,2026-06-01
+thuật toán,algorithm,2026-05-31
+thực phẩm,food,2026-06-01
+thuyết phục,convince,2026-05-31
+tiền lương,salary,2026-06-01
+tiếng Anh,English language,2026-06-01
+tiếng Việt,Vietnamese language,2026-06-01
+tin tức,news,2026-06-01
+tình bạn,friendship,2026-06-01
+tình yêu,love,2026-06-01
+tòa án,court,2026-06-01
+toán học,mathematics,2026-05-31
+tôn giáo,religion,2026-06-01
+tổn thất,loss,2026-05-31
+trà xanh,green tea,2026-06-01
+trái cây,fruit,2026-06-01
+trận đấu,match,2026-05-31
+trí tuệ,intelligence,2026-05-31
+trường đời,school of life,2026-05-31
+trường học,school,2026-05-31
+truyền hình,television,2026-06-01
+truyền thống,tradition,2026-06-01
+từ vựng,vocabulary,2026-06-01
+tuần sau,next week,2026-06-01
+tuệ giác,insight,2026-05-31
+tương lai,future,2026-06-01
+ước mơ,dream,2026-06-01
+văn hóa,culture,2026-06-01
+văn học,literature,2026-06-01
+văn phòng,office,2026-06-01
+vật liệu,material,2026-05-31
+vi khuẩn,bacteria,2026-05-31
+việc làm,employment,2026-05-31
+viên chức,public employee,2026-05-31
+vụ án,court case,2026-05-31
+vụ mùa,crop season,2026-05-31
+xe đạp,bicycle,2026-06-01
+xe máy,motorbike,2026-06-01
+ý kiến,opinion,2026-06-01
+y tá,nurse,2026-06-01
